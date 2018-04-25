@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50792400-3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-50792400-3');
+        </script>
+
         <title>Endless Donuts</title>
         <link rel="shortcut icon" type="image/gif" href="favicon.png">
         <link href="style.css" rel="stylesheet" type="text/css"/>
