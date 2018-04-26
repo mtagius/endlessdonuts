@@ -1,7 +1,9 @@
+colors = ["red", "yellow", "brown"]
+
 function generateDonuts() {
     iterator = 0;
     $($(".donut").get().reverse()).each(function() {
-        this.append("Donut! " + iterator);
+        $(this).find("circle").css("fill", colors[Math.floor(Math.random() * colors.length)]);
         if(++iterator >= 3) {
             return false;
         }

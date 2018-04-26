@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'bubblegum';
+	src: url('fonts/Bubblegum.ttf') format('truetype');
+}
+
+body {
+    background: linear-gradient(#FCADA7, #FF90ED);
+	font-family: Helvetica, sans-serif;
+	color: #843C6A;
+    padding: 40px;
+}
+
+.main-container {
+    width: 80%;
+    display: initial;
+}
+
+#main-title {
+	font-family: bubblegum ,Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1400px) {
+    .main-container {
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+    .main-container {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    #main-title {
+		font-size: 30px;
+	}
+}
