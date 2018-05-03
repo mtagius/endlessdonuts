@@ -1,7 +1,11 @@
+@font-face {
+	font-family: 'KeepCalm';
+	src: url('fonts/KeepCalm-Medium.ttf') format('truetype');
+}
 
 #main-title {
 	text-align: center;
-	padding: 0px 0px 40px 0px;
+	padding: 40px 0px 40px 0px;
 }
 
 html {
@@ -18,6 +22,40 @@ body {
 
 .main-container {
     display: initial;
+}
+
+#menu {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 10px 10px 0px 0px;
+	font-family: KeepCalm, sans-serif;
+	color: #2e2e30;
+}
+
+#menu a:link {
+	color:#2e2e30;
+}
+#menu a:visited {
+	text-decoration: none;
+	color: #2e2e30;
+}
+#menu a:hover {
+	text-decoration: none;
+	color: #2e2e30;
+	cursor: pointer;
+}
+#menu a:active {
+	text-decoration: none;
+	color: #2e2e30;
+}
+
+#credit {
+    top: -6px;
+    display: inline;
+    position: relative;
+    padding: 0px 2px 0px 0px;
+    font-size: 12px;
 }
 
 #donuts {
