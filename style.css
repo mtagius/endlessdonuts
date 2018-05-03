@@ -58,6 +58,11 @@ body {
     font-size: 12px;
 }
 
+.bmc-button {
+	position: relative;
+    top: -2px;
+}
+
 #donuts {
 	text-align: center;
 }
