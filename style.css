@@ -15,6 +15,14 @@ body {
     display: initial;
 }
 
+.jscroll-added {
+	display: inline;
+}
+
+.donut {
+	display: inline;
+}
+
 #main-title {
 	font-family: bubblegum ,Helvetica, sans-serif;
     font-size: 40px;
