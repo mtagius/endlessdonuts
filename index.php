@@ -22,7 +22,8 @@
     <body>
         <div class="main-container">
             <div id="main-title">
-                <h1>Endless Donuts</h1>
+                <img src="endless.png" alt="Endless" height="162" width="552">
+                <img src="donuts.png" alt="Donuts" height="162" width="547">
             </div>
             
             <div id="donuts">
