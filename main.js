@@ -36,7 +36,7 @@ function generateDonuts() {
         $(this).find(".glaze").attr("stroke", "#2E2E30");
         $(this).find(".glaze").attr("stroke-width", "6");
         $(this).find(".glaze").attr("stroke-miterlimit", "10");
-        $(this).find(".glaze").attr("d", glaze[Math.floor(Math.random() * glaze.length)]);
+        $(this).find(".glaze").attr("d", glaze[Math.floor(Math.random() * glaze.length)]); 
         $(this).find(".sprinkles").css("fill", sprinklesColors[sprinklesNumber]);
         $(this).find(".sprinkles").attr("d", sprinkles[Math.floor(Math.random() * sprinkles.length)]);
         if(++iterator >= 10) {
