@@ -1,8 +1,8 @@
 # Endless Donuts
 
-Inspired by http://endless.horse this website delivers just what everyone asked for.  A never ending stream of donuts!
+Inspired by http://endless.horse this website delivers just what everyone asked for, a never ending stream of donuts!
 
-The site uses jScroll and is hosted on Heroku.
+The site uses jScroll to append more donuts to the page.
 
 Check the site out at http://endlessdonuts.us
 
